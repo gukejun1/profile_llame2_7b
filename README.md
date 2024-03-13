@@ -1,0 +1,1 @@
+python run_llama_int8_0307.py -m Llama-2-7b-hf --quantized-model-path "./saved_results_w8a8/best_model.pt" --benchmark --int8 --num-iter 1 --num-warmup 0 --profile --max-new-tokens 10 --corenums 64  --greedy  --batch-size 1  --jit 
